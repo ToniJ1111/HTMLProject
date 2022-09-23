@@ -1,0 +1,1 @@
+(()=>{e("Please look around. I'm currently looking for a position");let n=new Date("09/24/2022").getDay();function e(n){document.writeln("<p>"+n+"</p>"),document.writeln("<hr/>")}0!==n&&6!==n||e("OOO and will return all emails upon my return")})();

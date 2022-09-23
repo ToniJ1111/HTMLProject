@@ -1,0 +1,107 @@
+
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:#DCDCDC;
+}
+
+main {
+    background-color: #9370DB;
+    padding: 4px;
+    color:#2F4F4F;
+    grid-area: main;
+    
+}
+
+aside {
+    grid-area: aside;
+}
+
+h1,
+h2 {
+    color: #2F4F4F;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#headShot {
+    border: 1px solid #2F4F4F;
+    padding: 2px;
+    margin: 8px;
+    border-radius: 15px;
+    /* the larger the radius = rounded img*/
+    max-width: 75px;
+}
+
+.experience {
+    border: inset 1px;
+    margin-bottom: 4px;
+    padding: 4px;
+    background-color:#E6E6FA;
+    color:#2F4F4F;
+}
+
+.experience .title {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #DCDCDC;
+    color: #2F4F4F;
+    text-align: center;
+    padding: 2px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    grid-area: footer;
+}
+
+#menu {
+    float: right;
+}
+
+#menu li {
+    display: inline;
+    padding: 8px;
+    background-color: #9370DB;
+}
+
+#menu li a {
+    color:#2F4F4F !important;
+    text-decoration: none;
+}
+
+#menu li.active {
+    background-color: #6495ED;
+}
+
+header {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    grid-area: header;
+}
+
+header #menu {
+    margin-left: auto;
+}
+
+.container {
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "main aside"
+        "footer footer";
+    grid-template-columns: auto 200px;
+    grid-gap: 8px;
+}
+
+#formInfo {
+    font-size: 14px;
+    font-style: italic;
+}
+
+/*header #headShot, header #siteName, header #menu {
+    display: inline;
+   vertical-align: middle;
+}*/

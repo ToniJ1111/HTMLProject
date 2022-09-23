@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Toni Johnson's Resume Page</title>
+    <link rel="stylesheet" href="site.css" />
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img id="headShot" src="rmpic.jpg" alt="Toni's Pic" width="150" height="" />
+            <h1 id="siteName">Toni Johnson</h1>
+
+            <ul id="menu">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="privacy.html">Privacy</a></li>
+            </ul>
+        </header>
+
+        <main>
+            <p><strong>Purpose:</strong> This is a resume to help me to get a job in web development.</p>
+
+            <h2>Experience</h2>
+
+            <div class="experience">
+                <p class="title">Accenture - 2022 - Current</p>
+                <p>Applications Development Associate</p>
+            </div>
+
+            <div class="experience">
+                <p class="title">Bank of America - 2013 - 2022</p>
+                <p>Senior Operations Analyst</p>
+            </div>
+
+            <div class="experience">
+                <p class="title">USAF - 1996 - 2006</p>
+                <p>Munitions Tech</p>
+            </div>
+
+        </main>
+
+        <aside>
+            <h2>Contact Me</h2>
+            <form id="contactForm">
+                <div id="formInfo"></div>
+                <div>
+                    <label for="fullName">Full Name</label>
+                </div>
+                <div>
+                    <input id="fullName" type="text" />
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                </div>
+                <div>
+                    <input id="email" type="" email />
+                </div>
+                <div>
+                    <label for="subject">Subject</label>
+                </div>
+                <div>
+                    <select id="subject">
+                        <option>Job Offer</option>
+                        <option>Personal Message</option>
+                        <option>Complaint</option>
+                    </select>
+                    <div>
+                        <label for="msg">Message</label>
+                    </div>
+                    <div>
+                        <textarea id="msg" rows="4"></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" value="Send Mail" />
+                    </div>
+            </form>
+        </aside>
+
+        <footer>
+            &copy; 2022 Copyright Toni Johnson
+        </footer>
+    </div>
+   
+    <script type="module" src="index.js"></script>
+
+</body>
+
+</html>
